@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clase base para todos los tipos de Pokémon */
+.type-pokemon {
+  color: #ffffff; /* Blanco */
+  border: 2px solid;
+  padding: 4px 8px;
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 2px; /* Margen exterior */
+}
+
+.type-nulo {
+  background-color: #989595; /* gris */
+  border-color: #6b6a6a;
+}
+
+/* Colores específicos para cada tipo de Pokémon */
+.type-normal {
+  background-color: #a8a878; /* Gris verdoso */
+  border-color: #6d6d4f; /* Gris oscuro */
+}
+
+.type-fire {
+  background-color: #f08030; /* Naranja fuego */
+  border-color: #d04f00; /* Rojo oscuro */
+}
+
+.type-water {
+  background-color: #6890f0; /* Azul claro */
+  border-color: #004dff; /* Azul oscuro */
+}
+
+.type-grass {
+  background-color: #78c850; /* Verde hierba */
+  border-color: #4c7f4c; /* Verde oscuro */
+}
+
+.type-electric {
+  background-color: #f8d030; /* Amarillo eléctrico */
+  border-color: #f7b500; /* Amarillo oscuro */
+}
+
+.type-ice {
+  background-color: #98d8d8; /* Azul hielo */
+  border-color: #6ed6d0; /* Azul más oscuro */
+}
+
+.type-fighting {
+  background-color: #c03028; /* Rojo lucha */
+  border-color: #7d1f1a; /* Rojo oscuro */
+}
+
+.type-poison {
+  background-color: #a040a0; /* Púrpura veneno */
+  border-color: #6d0077; /* Púrpura oscuro */
+}
+
+.type-ground {
+  background-color: #e0c068; /* Marrón tierra */
+  border-color: #b08b50; /* Marrón oscuro */
+}
+
+.type-flying {
+  background-color: #a890f0; /* Azul volador */
+  border-color: #6d6df0; /* Azul oscuro */
+}
+
+.type-psychic {
+  background-color: #f85888; /* Rosa psíquico */
+  border-color: #f06292; /* Rosa oscuro */
+}
+
+.type-bug {
+  background-color: #a8b820; /* Verde bicho */
+  border-color: #6d6d2f; /* Verde oscuro */
+}
+
+.type-rock {
+  background-color: #b8a038; /* Marrón roca */
+  border-color: #8a6f2f; /* Marrón oscuro */
+}
+
+.type-ghost {
+  background-color: #705898; /* Púrpura fantasma */
+  border-color: #4e3382; /* Púrpura oscuro */
+}
+
+.type-dragon {
+  background-color: #7038f8; /* Azul dragón */
+  border-color: #4e1a94; /* Azul oscuro */
+}
+
+.type-dark {
+  background-color: #705848; /* Marrón oscuro siniestro */
+  border-color: #4e3a2e; /* Marrón más oscuro */
+}
+
+.type-steel {
+  background-color: #b8b8d0; /* Gris acero */
+  border-color: #8484a0; /* Gris oscuro */
+}
+
+.type-fairy {
+  background-color: #f0b6bc; /* Rosa hada */
+  border-color: #f39b9b; /* Rosa oscuro */
+}
